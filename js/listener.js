@@ -1,7 +1,7 @@
 
 
     function onNewsClicked(position){
-       window.location.href = `https://anass-at.github.io//news.html?id=${position}`;
+       window.location.href = `news.html?id=${position}`;
 
    }
 
