@@ -8,10 +8,10 @@ Handlebars.registerPartial('footer',`<footer  class="footer">
         <div class="col-md-4 col-sm-12 text-center">
             <p class="h5 mt-3" style="color: #aaabb8;">Site map</p>
             <ul class="list-unstyled">
-               <li><a href="/">Home</a></li>
-			   <li><a href="/">All news</a></li>
-               <li><a href="/">Report</a></li>
-               <li><a href="">New preview</a></li>
+               <li><a href="index.html">Home</a></li>
+			   <li><a href="all-news.html">All news</a></li>
+               <li><a href="report.html">Report</a></li>
+               <li><a href="search.html">Search</a></li>
             <ul>
         </div>
         <div class="col-md-4 col-sm-12 text-center">

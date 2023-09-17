@@ -29,7 +29,7 @@ Handlebars.registerPartial('header',`
     </ul>
     
     <form class="d-flex">
-      <a class="btn btn-outline-success" href="/search.html?" style="border-color: white;color:white">search</a>
+      <a class="btn btn-outline-success" href="search.html?" style="border-color: white;color:white">search</a>
     </form>
   </div>
 </div>
