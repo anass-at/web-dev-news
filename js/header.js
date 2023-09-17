@@ -37,7 +37,6 @@ Handlebars.registerPartial('header',`
     `)
 
     const containerHeader = document.getElementById('container-header')
-    console.log(containerHeader)
     const headerTemplate = document.getElementById('header-template');
     const headerTemplateCompiled = Handlebars.compile(headerTemplate.innerHTML  );
     containerHeader.innerHTML = headerTemplateCompiled()

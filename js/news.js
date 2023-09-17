@@ -7,7 +7,6 @@ window.onload = function (){
     var new_container = document.getElementById("single_news").innerHTML 
     var complied_new_container = Handlebars.compile(new_container)
     var rander = complied_new_container(data.news[position])
-    console.log(data.news[position],position)
     document.getElementById("new-container").innerHTML = rander
 
     var sameler_template = document.getElementById('sameler-template').innerHTML
@@ -23,7 +22,6 @@ window.onload = function (){
         continue
         }
         count++ 
-        console.log('index',index)
         var sameler_compiler =  Handlebars.compile(sameler_template)
         document.getElementById('sameler-container').innerHTML += sameler_compiler(sameler_news[index])
         
