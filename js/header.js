@@ -19,11 +19,11 @@ Handlebars.registerPartial('header',`
         <a class="nav-link active" aria-current="page" href="/">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/all-news.html">News</a>
+        <a class="nav-link" href="all-news.html">News</a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="/report.html">Report</a>
+        <a class="nav-link" href="report.html">Report</a>
       </li>
      
     </ul>
